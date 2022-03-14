@@ -23,5 +23,17 @@ srednich butelek: 1
 malych butelek: 3
 ```
 
+# Zadanie 2
 
+Zdefiniowac klase Box, ktorej obiekty beda stanowic pudelka o zadanych rozmiarach (szerokosc, wysokosc).
+Dostarczyc w tej klasie specjalnych metod laczenia pudelek:
+* diagonalnie (zwraca pudelko o rozmiarach rownych sumie szerokosci i wysokosci laczonych pudelek) - nazwa metody joinDiagonal,
+* poziomo (zwraca pudelko o rozmiarach rownych sumie szerokosci laczonych pudelek i wysokosci rownej maksimum z wysokosci pudelek) - nazwa metody joinHorizontal
+* pionowo (zwraca pudelko o rozmiarach rownych sumie wysokosci laczonych pudelek i szerokosci rownej maksimum z szerokosci pudelek) - nazwa metody joinVertical
+
+Przetestowac klase w nastepujacy sposob
+* uzytkownik programu w dialogu wejsciowym wprowadza dowolna liczbe szerokosci pudelek
+* wysokosc tych pudelek rowna jest 2*szerokosc
+* wyprowadzic na konsole wielkosci (szerokosc, wysokosc) kazdego z pudelek
+* polaczyc otrzymane pudelka w kombinacje diagonalne, wertykalne i horyzontalne i wyprowadzic na konsole ich rozmiary
 
